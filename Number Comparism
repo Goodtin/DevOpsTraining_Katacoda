@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled8.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOdH/VDzRBMpuTFqEVO54fn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Goodtin/DevOpsTraining_Katacoda/blob/main/Number%20Comparism\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        },
+        "id": "ZoBn3eZ9YuEl",
+        "outputId": "28fff0bf-29d4-4767-b86b-cd0ead3e8c7d"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-5e641d6334ce>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    2\tb =8\u001b[0m\n\u001b[0m     \t^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "a =7\n",
+        "2\tb =8\n",
+        "3\tc =9\n",
+        "4\t\n",
+        "5\tdef biggest(num1,num2,num3):\n",
+        "6\t      if ((num1 > num2) and (num1 > num3)):\n",
+        "7\t          return num1\n",
+        "8\t      elif ((num2 > num1) and (num2 > num3)):\n",
+        "9\t          return (num2)\n",
+        "10\t      elif ((num3 >= num1) and (num3 >= num2)):\n",
+        "11\t          return(num3)\n",
+        "12\tprint(biggest(a,b,c))"
+      ]
+    }
+  ]
+}
